@@ -3,7 +3,7 @@ const slideshowDivs = () => {
   for (let i = 1; i <= 4; i++) {
     const div = document.createElement('div');
 
-    div.style.backgroundImage = `url(../images/slideshow/section-1-bg-${i}.jpg)`;
+    div.style.backgroundImage = `url(https://github.com/philippoops/Secware-AIO/blob/master/images/slideshow/section-1-bg-${i}.jpg)`;
     i === 1 && div.classList.add('change');
     document.querySelector('.slideshow').appendChild(div);
   }

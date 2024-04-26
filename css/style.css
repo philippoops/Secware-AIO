@@ -46,7 +46,6 @@ html {
 .section-1 {
   width: 100%;
   height: 100vh;
-  background-color: var(--color-bg2);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -473,10 +472,10 @@ html {
   }
 
   .section-1-banner h1 {
-    font-size: 8.5rem;
+    font-size: 9rem;
   }
   .shop-link img {
-    width: 8rem;
+    width: 7rem;
   }
   .section-4-heading::before {
     width: 45%;
@@ -513,8 +512,9 @@ html {
   .section-3-heading {
     font-size: 6rem;
   }
-  .icon-link img {
+  .shop-link img {
     width: 6rem;
   }
 }
+
 /* responsive end here */
